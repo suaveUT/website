@@ -12,9 +12,30 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+ <link href="assets/pages/css/animate.css" rel="stylesheet">
+  <link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+<link href="assets/plugins/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
+  <link href="assets/corporate/css/style.css" rel="stylesheet">
+  
+ 
+	
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+	<style>
+ .parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
 
   </head>
 
@@ -64,23 +85,23 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item active"  style="background-image: url('book.jpeg')">
+          <div class="carousel-item active parallax"  style="background-image: url('back1.png')">
             <div class="carousel-caption d-none d-md-block">
-              <h1 class="stroke">learning made simple</h1>
+              <h1 class="stroke">LEARNING MADE SIMPLE</h1>
               <!--<p class="stroke">This is a description for the first slide.</p>-->
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('create.jpeg')">
+          <div class="carousel-item parallax" style="background-image: url('back2.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h1 class="stroke">create stuff that matters</h1>
+              <h1 class="stroke">CREATE STUFF THAT MATTERS</h1>
               <!--<p>This is a description for the second slide.</p>-->
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('notepad.jpeg')">
+          <div class="carousel-item parallax" style="background-image: url('back3.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h1 class="stroke">work on latest technologies</h1>
+              <h1 class="stroke">WORK ON LATEST TECHNOLOGIES</h1>
               <!--<p>This is a description for the third slide.</p>-->
             </div>
           </div>
@@ -99,13 +120,13 @@
     <!-- Page Content -->
     <div class="container">
 
-      <h1 class="my-4 text-center">Welcome to better learning</h1>
+      <h1 class="my-4 text-center" style="color:#4e4e4f">Welcome to better learning</h1>
 
       <!-- Marketing Icons Section -->
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header text-center">In Depth Topic Coverage</h4>
+            <h4 class="card-header text-center" style="color:#4e4e4f">In Depth Topic Coverage</h4>
             <div class="card-body">
               <p class="card-text">
                   We believe in concept based learning. Our course covers all required topics in a well-structured manner that caters to the student in a simple format while being thorough on the topic.
@@ -115,7 +136,7 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header text-center">Hands-On Practical Sessions</h4>
+            <h4 class="card-header text-center" style="color:#4e4e4f">Hands-On Practical Sessions</h4>
             <div class="card-body">
               <p class="card-text">
                   We believe practice makes a programmer commit less errors! Therefore, we make sure every student gets enough time on coding and debugging.
@@ -125,7 +146,7 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header text-center">Focus On Long-Term Learning</h4>
+            <h4 class="card-header text-center" style="color:#4e4e4f">Long-Term Learning</h4>
             <div class="card-body">
               <p class="card-text">
                   The course focuses on providing a learning platform to the students rather than burdening them with extra chores. All of the work is done inside the classroom!
@@ -134,18 +155,20 @@
           </div>
         </div>
       </div>
+	  
+	  
       <!-- /.row -->
 
       <!-- Portfolio Section -->
-      <h2 class="text-center" style="padding: 10px;">Our Worksamples</h2>
+      <h2 class="text-center" style="padding: 10px;" style="color:#4e4e4f">Our Worksamples</h2>
 
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="assets\pages\img\works\ebgs.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="portfolio_item_1.html">EBGS Home Automation</a><!--TODO create a new page and add link here-->
+                <a href="portfolio_item_1.html" style="color:#4e4e4f">EBGS Home Automation</a><!--TODO create a new page and add link here-->
               </h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
             </div>
@@ -156,7 +179,7 @@
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">ADS College Information System</a>
+                <a href="#" style="color:#4e4e4f">ADS College Information System</a>
               </h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
@@ -164,10 +187,10 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="assets\pages\img\works\niche.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Niche Solutions Website</a>
+                <a href="#" style="color:#4e4e4f">Niche Solutions Website</a>
               </h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
             </div>
@@ -178,7 +201,7 @@
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Aarvika Consultancy Website</a>
+                <a href="#" style="color:#4e4e4f">Aarvika Consultancy Website</a>
               </h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
@@ -189,7 +212,7 @@
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">The (Android) App That Does Nothing</a>
+                <a href="#" style="color:#4e4e4f">The (Android) App That Does Nothing</a>
               </h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
@@ -200,7 +223,7 @@
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Review App (Android) with Real-Time Database</a>
+                <a href="#" style="color:#4e4e4f">Review App (Android) with Real-Time Database</a>
               </h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
             </div>
@@ -212,7 +235,7 @@
       <!-- Features Section -->
       <div class="row">
         <div class="col-lg-6">
-          <h2>Upcoming Programs</h2>
+          <h2 style="color:#4e4e4f">Upcoming Programs</h2>
           <p>We are introducing a classroom program for programming basics:</p>
           <ul>
             <li>In-House Classroom Program</li>
@@ -231,8 +254,59 @@
       </div>
       <!-- /.row -->
 
-      <hr>
+	  
+ <!-- BEGIN TECHNOLOGIES -->
 
+        <div class="row margin-bottom-40 our-clients card-header text-center">
+          <div class="col sm-6">
+            <h2><a href="javascript:;">Learn With Us</a></h2>
+			<p>Some Tag Line!</p>
+          </div>
+		  
+          <div class="col-lg-9">
+            <div class="owl-carousel owl-carousel6-brands">
+              <div class="client-item">
+                <a href="javascript:;">
+                  <img src="assets/pages/img/clients/c2.png" class="img-responsive" alt="">
+                  <img src="assets/pages/img/clients/c2.png" class="color-img img-responsive" alt="">
+                </a>
+              </div>
+              <div class="client-item">
+                <a href="javascript:;">
+                  <img src="assets/pages/img/clients/pyt.png" class="img-responsive" alt="">
+                  <img src="assets/pages/img/clients/pyt.png" class="color-img img-responsive" alt="">
+                </a>
+              </div>
+              <div class="client-item">
+                <a href="javascript:;">
+                  <img src="assets/pages/img/clients/j.png" class="img-responsive" alt="">
+                  <img src="assets/pages/img/clients/j.png" class="color-img img-responsive" alt="">
+                </a>
+              </div>
+              <div class="client-item">
+                <a href="javascript:;">
+                  <img src="assets/pages/img/clients/a.png" class="img-responsive" alt="">
+                  <img src="assets/pages/img/clients/a.png" class="color-img img-responsive" alt="">
+                </a>
+              </div>
+              <div class="client-item">
+                <a href="javascript:;">
+                  <img src="assets/pages/img/clients/ar.png" class="img-responsive" alt="">
+                  <img src="assets/pages/img/clients/ar.png" class="color-img img-responsive" alt="">
+                </a>
+              </div>
+              <div class="client-item">
+                <a href="javascript:;">
+                  <img src="assets/pages/img/clients/ht.png" class="img-responsive" alt="">
+                  <img src="assets/pages/img/clients/ht.png" class="color-img img-responsive" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END TECHNOLOGIES -->
+      <hr>
+	   
       <!-- Call to Action Section -->
       <div class="row mb-4">
         <div class="col-md-8">
@@ -242,10 +316,13 @@
         </div>
         <div class="col-md-4">
           <a class="btn btn-lg btn-secondary btn-block" href="services.html">Learn More!</a>
+		 
         </div>
       </div>
 
+
     </div>
+	
     <!-- /.container -->
 
     <!-- Footer -->
@@ -261,6 +338,33 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Load javascripts at bottom, this will reduce page load time -->
+    <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    
+    <script src="assets/corporate/scripts/back-to-top.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script src="assets/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><!-- pop up -->
+    <script src="assets/plugins/owl.carousel/owl.carousel.min.js" type="text/javascript"></script><!-- slider for products -->
+
+    <script src="assets/corporate/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/pages/scripts/bs-carousel.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            Layout.init();
+            Layout.initOWL();
+            Layout.initTwitter();
+            Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
+            Layout.initNavScrolling();
+        });
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
   </body>
 
 </html>
